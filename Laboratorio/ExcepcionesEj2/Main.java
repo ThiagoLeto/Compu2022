@@ -24,7 +24,7 @@ public class Main {
                 no_es_numero = true;
                 System.out.println("EL INDICE SELECCIONADO NO SE ENCUENTRA DENTRO DEL SISTEMA");
             } catch (ScannerArgumentException e){ no_es_numero = true;
-                System.out.println("NO HAY POSICIONES NEGATIVAS, REPULSIVO ARROGANTE Y ENGREIDO"); }
+                System.out.println("NO HAY POSICIONES NEGATIVAS"); }
     }
 
     }
