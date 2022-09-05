@@ -32,5 +32,6 @@ public class Sistema_Alarma {
     }
 
     public void ingresar_dispositivo(dispositivos ingreso){ this.lista_dispositivos.add(ingreso); }
-    public void asignar_dispositivo_preferido( int index ){  }
+    public void asignar_dispositivo_preferido( int index ){ this.dispostivio_actual.setNombre( this.lista_dispositivos.get(index).getNombre());this.dispostivio_actual.setIndex(index); }
 }
+
